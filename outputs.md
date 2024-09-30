@@ -15,3 +15,4 @@
 
 # Minio Go Online
 <img width="1416" alt="image" src="https://github.com/user-attachments/assets/57de9c42-fef4-4b9a-bad2-10ad6adba057">
+<img width="988" alt="image" src="https://github.com/user-attachments/assets/f01d5305-e94a-4a01-89d3-280cfeb256ff">
