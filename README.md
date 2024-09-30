@@ -59,6 +59,11 @@ Start by setting up a Kubernetes environment using Minikube or an AWS EKS cluste
    kubectl apply -f prometheus-thanos/
    ```
 
+Check Logs
+   ```bash
+kubectl logs -l app.kubernetes.io/name=prometheus -n monitoring -f
+   ```
+
 ### Step 3: Configure Object Store (Minio or S3)
 For local storage, use Minio as an S3-compatible object store. Modify `object-store.yaml` with your S3 or Minio credentials.
 
