@@ -64,6 +64,14 @@ Check Logs
 kubectl logs -l app.kubernetes.io/name=prometheus -n monitoring -f
    ```
 
+Port Forward
+   ```bash
+kubectl get svc -n monitoring
+   ```
+   ```bash
+kubectl port-forward svc/prometheus-operated 9090 -n monitoring
+   ```
+
 ### Step 3: Configure Object Store (Minio or S3)
 For local storage, use Minio as an S3-compatible object store. Modify `object-store.yaml` with your S3 or Minio credentials.
 
