@@ -12,3 +12,6 @@
 
 # Metrics Visualise
 <img width="985" alt="image" src="https://github.com/user-attachments/assets/ca1700c8-8138-417e-abc5-d6daa6b47a59">
+
+# Minio Go Online
+<img width="1416" alt="image" src="https://github.com/user-attachments/assets/57de9c42-fef4-4b9a-bad2-10ad6adba057">
