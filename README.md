@@ -34,8 +34,8 @@ This repository contains a step-by-step guide and configuration files to set up 
 
 ## Getting Started
 
-### Step 1: Install Minikube or EKS
-Start by setting up a Kubernetes environment using Minikube or an AWS EKS cluster. This repository contains scripts and configurations for both local and cloud setups.
+### Step 1: Install Minikube 
+Start by setting up a Kubernetes environment using Minikube on Windows or Mac. This repository contains scripts and configurations for both local environmets.
 
 ### Step 2: Deploy Prometheus and Thanos
 1. Clone this repository:
