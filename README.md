@@ -19,7 +19,7 @@ This repository contains a step-by-step guide and configuration files to set up 
 ## Setup
 
 ### Prerequisites
-- Kubernetes Cluster (e.g., Minikube, AWS EKS).
+- Kubernetes Cluster Minikube.
 - Installed tools: `kubectl`, `helm`, `docker`, `minio` (optional for local object store).
 - Basic understanding of Kubernetes, Prometheus, and Grafana.
 
@@ -36,6 +36,10 @@ This repository contains a step-by-step guide and configuration files to set up 
 
 ### Step 1: Install Minikube 
 Start by setting up a Kubernetes environment using Minikube on Windows or Mac. This repository contains scripts and configurations for both local environmets.
+
+   ```powershell
+choco install minikube -y
+   ```
 
 ### Step 2: Deploy Prometheus and Thanos
 1. Clone this repository:
