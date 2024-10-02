@@ -40,3 +40,7 @@ minikube service minio-console --url -n minio
 
 # Container Logs
 kubectl logs -f prometheus-staging-0 -c thanos-sidecar -f -n monitoring
+
+# Get Services
+kubectl get svc
+![image](https://github.com/user-attachments/assets/b02e2ba7-596b-430a-97a4-ccb117ea804c)
