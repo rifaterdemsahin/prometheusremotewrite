@@ -1,0 +1,5 @@
+Windows 11 Workstation Test Environment 
+Access Key
+778OdyDVcePmaP52
+Secret
+uFVZjvjReJCi2jUhHUiWXAxDZwgK2ieJ
