@@ -11,5 +11,5 @@ stringData:
       bucket: prometheus-metrics
       endpoint: "minio.minio:9000"
       insecure: true
-      access_key: "YNs7PmwL5vOaoMU9"
-      secret_key: "otfTMeAeSge6CGqcjXnnffuX4yG5upng"
+      access_key: "778OdyDVcePmaP52"
+      secret_key: "uFVZjvjReJCi2jUhHUiWXAxDZwgK2ieJ"
