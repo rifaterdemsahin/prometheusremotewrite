@@ -1,4 +1,3 @@
-```markdown
 # Minikube Commands Explained with Emojis
 
 ## 🚀 `minikube start`
@@ -46,11 +45,8 @@ This command switches the Kubernetes context to **use Minikube**. It's essential
 
 ### Usage:
 ```bash
-kubectl set-context minikube
+kubectl config use-context minikube
 ```
 - 🌐 Ensures that all `kubectl` commands are executed within the Minikube cluster.
 - 🔀 Switches the Kubernetes context to Minikube.
-
-```
-
-This markdown explains the four commands along with a brief explanation and an emoji to make it more visual and fun!
+The four commands along with a brief explanation and an emoji to make it more visual and fun!
