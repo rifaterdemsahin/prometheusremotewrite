@@ -99,6 +99,8 @@ kubectl get endpoints -n monitoring
 ```bash
 kubectl port-forward svc/querier 9090 -n monitoring
 ```
+> https://youtu.be/feHSU0BMcco?t=1106
+
 
 # 🎉 END
 
