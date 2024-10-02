@@ -40,6 +40,7 @@ kubectl apply -f ./prometheus-operator-crds/
 kubectl apply -R -f prometheus-operator/
 kubectl apply -f prometheus
 ```
+> https://youtu.be/feHSU0BMcco?t=631
 
 # END
 
