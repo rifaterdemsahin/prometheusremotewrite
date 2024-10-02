@@ -53,6 +53,9 @@ choco install minikube -y
    kubectl create namespace monitoring
    ```
 
+# Install Prometheus Operator CustomResourceDefinitions (CRDs)
+kubectl apply -f ./prometheus-operator-crds/
+
 3. Apply the custom resource definitions and deploy the Prometheus Operator RECURSIVE -R:
    ```bash
    kubectl apply -R -f prometheus-operator/
