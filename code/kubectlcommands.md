@@ -31,3 +31,6 @@ kubectl get svc -n minio
 minikube service minio-console --url -n minio
 ![image](https://github.com/user-attachments/assets/ad82fd98-32ff-4fca-9d13-5d828a67ecb3)
 
+# Apply new minio setting to prometheus
+ kubectl apply -f prometheus
+ ![image](https://github.com/user-attachments/assets/4e4255a3-3e0b-4080-a9f2-a0badd312e2a)
