@@ -1,3 +1,5 @@
+# THIS IS SELF LEARNING GITHUB REPO 
+---------------------------
 # Thanos Setup for Kubernetes with Prometheus and Grafana
 
 This repository contains a step-by-step guide and configuration files to set up a highly available monitoring solution using [Thanos](https://thanos.io/), [Prometheus](https://prometheus.io/), and [Grafana](https://grafana.com/). The setup includes multiple Kubernetes clusters, remote write and read capabilities, and long-term storage with object stores like AWS S3 or Minio.
