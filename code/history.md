@@ -28,3 +28,5 @@ kubectl get pods -n monitoring
 
 # END
 ```
+# SOURCE
+https://youtu.be/feHSU0BMcco
