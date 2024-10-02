@@ -24,5 +24,8 @@ kubectl port-forward svc/prometheus-operated 9090 -n monitoring
   kubectl apply -f minio
 
 #Port forward does not work as they implemented websockets
-  kubectl get pods -n minio
-  
+kubectl get pods -n minio
+kubectl get svc -n minio  
+
+# Use Ingress over minikube
+minikube service minio-console --url -n minio
