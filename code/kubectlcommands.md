@@ -15,3 +15,14 @@ kubectl get svc -n monitoring
 # Port Forward
 kubectl port-forward svc/prometheus-operated 9090 -n monitoring
 ![image](https://github.com/user-attachments/assets/3bd0b4b8-d984-4573-b383-39c5671033b7)
+
+
+# Create minio namespace
+ kubectl apply -f minio-ns.yaml
+
+ # Apply minio folder
+  kubectl apply -f minio
+
+#Port forward does not work as they implemented websockets
+  kubectl get pods -n minio
+  
