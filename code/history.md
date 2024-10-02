@@ -32,6 +32,8 @@ git pull
 kubectl create namespace monitoring
 kubectl get pods -n monitoring
 ```
+> https://youtu.be/feHSU0BMcco?t=620
+> 
 
 # END
 ```
