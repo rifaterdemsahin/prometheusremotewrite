@@ -49,6 +49,11 @@ kubectl logs -f prometheus-staging-0 -c thanos-sidecar -f -n monitoring
 ```
 
 > https://youtu.be/feHSU0BMcco?t=686
+
+```bash
+kubectl get svc -n monitoring -f
+```
+> https://youtu.be/feHSU0BMcco?t=690
 # END
 
 # SOURCE
