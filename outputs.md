@@ -20,3 +20,5 @@
 
 # Labels and pods
 ![image](https://github.com/user-attachments/assets/97378ea0-257a-4706-8c0d-70958c09c96e)
+
+![image](https://github.com/user-attachments/assets/aa8872f3-f585-4352-b8f3-01d9487925d9)
