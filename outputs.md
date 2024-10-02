@@ -22,3 +22,7 @@
 ![image](https://github.com/user-attachments/assets/97378ea0-257a-4706-8c0d-70958c09c96e)
 
 ![image](https://github.com/user-attachments/assets/aa8872f3-f585-4352-b8f3-01d9487925d9)
+
+
+# Side Car Data Uploads
+![image](https://github.com/user-attachments/assets/2e7c7d55-2fa3-4b1e-ba91-f002dc97656e)
