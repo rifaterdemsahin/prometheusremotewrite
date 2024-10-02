@@ -33,9 +33,15 @@ kubectl create namespace monitoring
 kubectl get pods -n monitoring
 ```
 > https://youtu.be/feHSU0BMcco?t=620
-> 
+## DEPLOY PROMETHEUS AND THANOS COMPONENTS
+
+```bash
+kubectl apply -f ./prometheus-operator-crds/
+kubectl apply -R -f prometheus-operator/
+kubectl apply -f prometheus
+```
 
 # END
-```
+
 # SOURCE
 https://youtu.be/feHSU0BMcco
