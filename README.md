@@ -58,7 +58,7 @@ choco install minikube -y
    kubectl apply -f prometheus-operator/
    ```
 
-4. Deploy Prometheus and Thanos components:
+4. Deploy Prometheus and Thanos components: (10:07)
    ```bash
    kubectl apply -f prometheus-thanos/
    ```
@@ -126,3 +126,6 @@ kubectl delete namespace monitoring
 
 ## License
 This project is licensed under the MIT License.
+
+## Source
+https://youtu.be/feHSU0BMcco?t=698​
