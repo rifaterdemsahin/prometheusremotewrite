@@ -6,6 +6,7 @@ history
 ```
 
 ## ENVIRONMENT SETUP
+> https://youtu.be/feHSU0BMcco?t=468
 ```bash
 minikube stop
 minikube start
