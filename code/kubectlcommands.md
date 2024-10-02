@@ -34,3 +34,5 @@ minikube service minio-console --url -n minio
 # Apply new minio setting to prometheus
  kubectl apply -f prometheus
  ![image](https://github.com/user-attachments/assets/4e4255a3-3e0b-4080-a9f2-a0badd312e2a)
+3 Containers Going online
+![image](https://github.com/user-attachments/assets/e3788f66-a9d4-4b41-aa6b-a4b4e46c14de)
