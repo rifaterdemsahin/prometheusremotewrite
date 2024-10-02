@@ -1,3 +1,7 @@
+# Container Logs by labels
+
+kubectl logs -l app.kubernetes.io/name=prometheus -n monitoring -f
+
 # Multi Container Single Container Logs
 
 kubectl logs -f prometheus-staging-0 -c thanos-sidecar -f -n monitoring
