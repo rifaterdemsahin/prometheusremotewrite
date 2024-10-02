@@ -46,3 +46,7 @@ kubectl port-forward svc/prometheus-operated 9090 -n monitoring
 ```
 
 This version ensures that all commands are executed within the `monitoring` namespace.
+
+End REsult
+![image](https://github.com/user-attachments/assets/c21b571a-f10c-4a23-90b5-bb6919c03ff3)
+
