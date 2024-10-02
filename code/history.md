@@ -50,8 +50,10 @@ kubectl logs -f prometheus-staging-0 -c thanos-sidecar -f -n monitoring
 
 > https://youtu.be/feHSU0BMcco?t=686
 
+# Port Forwarding
 ```bash
 kubectl get svc -n monitoring -f
+kubectl port-forward svc/prometheus-operated 9090 -n monitoring
 ```
 > https://youtu.be/feHSU0BMcco?t=690
 # END
