@@ -1,4 +1,4 @@
-#Multi Container Single Container Logs
+# Multi Container Single Container Logs
 
 kubectl logs -f prometheus-staging-0 -c thanos-sidecar -f -n monitoring
 
