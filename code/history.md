@@ -1,21 +1,30 @@
 # START
-# GATHER WHAT YOU HAVE
-history 
-# ENVIRONMENT
+
+## GATHER WHAT YOU HAVE
+```bash
+history
+```
+
+## ENVIRONMENT SETUP
+```bash
 minikube stop
 minikube start
 
 kubectl config use-context minikube
 kubectl get pods
-kubectl get pods --allnamespaces
+kubectl get pods --all-namespaces
+```
 
-# IAC PULL DOWN
+## INFRASTRUCTURE AS CODE (IAC) PULL DOWN
+```bash
 cd projects
 ls
-prometheus
+cd prometheus
 ls
 git pull
 kubectl create namespace monitoring
 kubectl get pods -n monitoring
+```
 
 # END
+```
