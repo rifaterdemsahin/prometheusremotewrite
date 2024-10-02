@@ -40,7 +40,7 @@ minikube status
 
 ---
 
-## 🔄 `kubectl set-context minikube`
+## 🔄 `kubectl config use-context minikube``
 
 This command switches the Kubernetes context to **use Minikube**. It's essential when working with multiple clusters and you want to ensure you're interacting with the right one.
 
