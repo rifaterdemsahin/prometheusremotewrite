@@ -44,8 +44,8 @@ choco install minikube -y
 ### Step 2: Deploy Prometheus and Thanos
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-repo/thanos-monitoring.git
-   cd thanos-monitoring
+   git clone https://github.com/rifaterdemsahin/prometheusremotewrite.git
+   cd prometheusremotewrite
    ```
 
 2. Create the monitoring namespace:
@@ -53,15 +53,20 @@ choco install minikube -y
    kubectl create namespace monitoring
    ```
 
-3. Apply the custom resource definitions and deploy the Prometheus Operator:
+3. Apply the custom resource definitions and deploy the Prometheus Operator RECURSIVE -R:
    ```bash
-   kubectl apply -f prometheus-operator/
+   kubectl apply -R -f prometheus-operator/
    ```
 
 4. Deploy Prometheus and Thanos components: (10:07)
    ```bash
-   kubectl apply -f prometheus-thanos/
+   kubectl apply -f prometheus
    ```
+
+Check Pods Going Online 
+   ```bash
+kubectl get pods -n monitoring
+  ```
 
 Check Logs
    ```bash
