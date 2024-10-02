@@ -29,3 +29,5 @@ kubectl get svc -n minio
 
 # Use Ingress over minikube
 minikube service minio-console --url -n minio
+![image](https://github.com/user-attachments/assets/ad82fd98-32ff-4fca-9d13-5d828a67ecb3)
+
