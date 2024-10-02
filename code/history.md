@@ -88,6 +88,17 @@ kubectl apply -f prometheus
 kubectl get pods -n monitoring
 ```
 
+# Side Car Endpoints
+
+```bash
+kubectl get svc -n monitoring
+kubectl get endpoints -n monitoring
+```
+
+# Thanos Querier port forward
+```bash
+kubectl port-forward svc/querier 9090 -n monitoring
+```
 
 # 🎉 END
 
