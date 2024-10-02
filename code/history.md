@@ -42,6 +42,13 @@ kubectl apply -f prometheus
 ```
 > https://youtu.be/feHSU0BMcco?t=631
 
+```bash
+kubectl logs -l app.kubernetes.io/name=prometheus -n monitoring -f
+kubectl get pods -n monitoring
+kubectl logs -f prometheus-staging-0 -c thanos-sidecar -f -n monitoring
+```
+
+> https://youtu.be/feHSU0BMcco?t=686
 # END
 
 # SOURCE
