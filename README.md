@@ -1,4 +1,4 @@
-# THIS IS SELF LEARNING GITHUB REPO 
+# THIS GITHUB REPO IS FOR TO CLOSE SKILLS GAPS BY SELF LEARNING WITH AI
 ---------------------------
 # Thanos Setup for Kubernetes with Prometheus and Grafana
 
