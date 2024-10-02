@@ -82,6 +82,13 @@ kubectl apply -f prometheus
 > [🔗 Minio Setup](https://youtu.be/feHSU0BMcco?t=779)  
 > [🔗 YAML Update](https://youtu.be/feHSU0BMcco?t=887)
 
+> [🔗 Video: Check Pods](https://youtu.be/feHSU0BMcco)
+
+```bash
+kubectl get pods -n monitoring
+```
+
+
 # 🎉 END
 
 # 🔗 SOURCE
