@@ -15,6 +15,12 @@ kubectl config use-context minikube
 kubectl get pods
 kubectl get pods --all-namespaces
 ```
+## ENVIRONMENT MAIN MACHINE
+```bash
+kubectl get nodes
+```
+
+https://youtu.be/feHSU0BMcco?t=492
 
 ## INFRASTRUCTURE AS CODE (IAC) PULL DOWN
 ```bash
