@@ -56,6 +56,24 @@ kubectl get svc -n monitoring -f
 kubectl port-forward svc/prometheus-operated 9090 -n monitoring
 ```
 > https://youtu.be/feHSU0BMcco?t=690
+# RESOURCES
+http://localhost:9090
+
+# MINIO SETUP AND INGRESS
+```bash
+kubectl apply -f minio-ns.yaml
+kubetctl apply -f minio
+kubectl get pods -n minio
+minikube service minio-console --url -n minio
+```
+# LOGIN TO MINIO AND CREATE / UPDATE YAML
+```bash
+kubectl apply -f prometheus
+```
+> https://youtu.be/feHSU0BMcco?t=779
+> https://youtu.be/feHSU0BMcco?t=887
+
+
 # END
 
 # SOURCE
