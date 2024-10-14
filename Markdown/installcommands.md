@@ -9,3 +9,7 @@ kubectl create namespace monitoringoctober14
 
  helm install my-release oci://registry-1.docker.io/bitnamicharts/thanos -n monitoringoctober14```markdown
 ## Namespace Creation
+
+
+
+kubectl get pods -n monitoringoctober14
